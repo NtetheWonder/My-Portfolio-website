@@ -7,7 +7,7 @@
     }
 
     header .right-header{
-        padding: 1rem !important;
+        padding: 0 !important;
 
     }
     .theme-btn{
@@ -21,7 +21,7 @@
 
     }
     .left-header{
-        padding: 1rem !important;
+        padding: 0 !important;
         .h-shape{
             display: none;
         }
@@ -88,8 +88,14 @@
 
     .contact-content{
         flex-direction: column;
+        margin-bottom: 6rem;
+    
         .right-content{
             padding-top: 1rem;
+            margin-left: 0;
+        }
+        .left-content{
+            padding-top: 0;
             margin-left: 0;
         }
     }

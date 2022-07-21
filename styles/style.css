@@ -316,14 +316,10 @@ section {
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   padding-top: 3.5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 3.5rem;
 }
 
 .about-container .right-about {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
   grid-gap: 2rem;
 }
 
@@ -357,7 +353,7 @@ section {
 }
 
 .about-container .right-about .about-item .abt-text .large-text {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 700;
   color: var(--secondary-color);
 }
@@ -366,7 +362,8 @@ section {
   padding-left: 3rem;
   position: relative;
   text-transform: uppercase;
-  font-size: 1.2rem;
+  font-size: .8rem;
+  font-weight: 500;
   color: var(--grey-1-color);
   letter-spacing: 2px;
 }
@@ -385,8 +382,8 @@ section {
   padding-right: 5rem;
 }
 
-.about-container .left-about p {
-  line-height: 2rem;
+.about-container .left-about .info {
+  line-height: 1.5rem;
   color: var(--grey-1-color);
 }
 
@@ -977,7 +974,7 @@ section {
     height: auto;
   }
   header .right-header {
-    padding: 1rem !important;
+    padding: 0 !important;
   }
   .theme-btn {
     width: 35px;
@@ -989,7 +986,7 @@ section {
     padding-bottom: 4rem;
   }
   .left-header {
-    padding: 1rem !important;
+    padding: 0 !important;
   }
   .left-header .h-shape {
     display: none;
@@ -1053,9 +1050,14 @@ section {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-bottom: 6rem;
   }
   .contact-content .right-content {
     padding-top: 1rem;
+    margin-left: 0;
+  }
+  .contact-content .left-content {
+    padding-top: 0;
     margin-left: 0;
   }
   .section {
